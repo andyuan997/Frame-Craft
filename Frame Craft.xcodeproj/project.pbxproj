@@ -9,17 +9,18 @@
 /* Begin PBXBuildFile section */
 		CB6AE6F42B76167200FFDC19 /* Frame_CraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6AE6F32B76167200FFDC19 /* Frame_CraftApp.swift */; };
 		CB6AE6F62B76167200FFDC19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6AE6F52B76167200FFDC19 /* ContentView.swift */; };
-		CB6AE6F82B76167400FFDC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6AE6F72B76167400FFDC19 /* Assets.xcassets */; };
 		CB6AE6FB2B76167400FFDC19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6AE6FA2B76167400FFDC19 /* Preview Assets.xcassets */; };
+		CB6AE7042B76178A00FFDC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6AE7032B76178A00FFDC19 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB6AE6F02B76167200FFDC19 /* Frame Craft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frame Craft.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6AE6F32B76167200FFDC19 /* Frame_CraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_CraftApp.swift; sourceTree = "<group>"; };
 		CB6AE6F52B76167200FFDC19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CB6AE6F72B76167400FFDC19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6AE6FA2B76167400FFDC19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB6AE6FC2B76167400FFDC19 /* Frame_Craft.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Frame_Craft.entitlements; sourceTree = "<group>"; };
+		CB6AE7022B76174000FFDC19 /* Frame-Craft-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Frame-Craft-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CB6AE7032B76178A00FFDC19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Preview Content/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +53,12 @@
 		CB6AE6F22B76167200FFDC19 /* Frame Craft */ = {
 			isa = PBXGroup;
 			children = (
+				CB6AE7022B76174000FFDC19 /* Frame-Craft-Info.plist */,
 				CB6AE6F32B76167200FFDC19 /* Frame_CraftApp.swift */,
 				CB6AE6F52B76167200FFDC19 /* ContentView.swift */,
-				CB6AE6F72B76167400FFDC19 /* Assets.xcassets */,
-				CB6AE6FC2B76167400FFDC19 /* Frame_Craft.entitlements */,
+				CB6AE7032B76178A00FFDC19 /* Assets.xcassets */,
 				CB6AE6F92B76167400FFDC19 /* Preview Content */,
+				CB6AE6FC2B76167400FFDC19 /* Frame_Craft.entitlements */,
 			);
 			path = "Frame Craft";
 			sourceTree = "<group>";
@@ -127,8 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6AE7042B76178A00FFDC19 /* Assets.xcassets in Resources */,
 				CB6AE6FB2B76167400FFDC19 /* Preview Assets.xcassets in Resources */,
-				CB6AE6F82B76167400FFDC19 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +281,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Frame-Craft-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +309,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Frame-Craft-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
